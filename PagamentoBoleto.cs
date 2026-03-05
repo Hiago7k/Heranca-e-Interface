@@ -8,5 +8,10 @@ namespace Heranca_e_Interfacel
         {
             
         }
+
+        public void ProcessarPagamentos() 
+        {
+            Console.WriteLine($"Processando pagamento via boleto para {Nome} - {Email}");
+        }
     }
 }
