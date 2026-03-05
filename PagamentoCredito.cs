@@ -7,4 +7,9 @@ internal class PagamentoCredito : Pessoa, IPagamentos
     {
         
     }
+
+    public void ProcessarPagamentos()
+    {
+        Console.WriteLine($"Processando o pagamento com cartao de credito para {Nome} - {Email}");
+    }
 }
