@@ -6,3 +6,6 @@ PagamentoBoleto cliente2 = new PagamentoBoleto("Juliana", "juliana@hotmal.com");
 
 cliente1.ProcessarPagamentos();
 cliente2.ProcessarPagamentos();
+
+
+Console.WriteLine("Testando alguams parada ai");

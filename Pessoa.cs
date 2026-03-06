@@ -1,6 +1,6 @@
 ﻿namespace Heranca_e_Interface;
 
-internal class Pessoa
+abstract class Pessoa
 {
     public Pessoa(string nome, string email)
     {
